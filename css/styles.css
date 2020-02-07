@@ -1,3 +1,19 @@
+#topContainer {
+    background-color: ecfcff;
+}
+
 body {
-    background: blue;
+    margin: 0;
+}
+
+#middleContainer {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#bottomContainer {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
 }
