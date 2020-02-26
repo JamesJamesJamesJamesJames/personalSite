@@ -1,3 +1,7 @@
+html {
+    padding-bottom: 0;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -31,8 +35,10 @@ p {
 }
 
 hr {
-    border: dashed gray;
-    width: 20%;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
   
 }
 
@@ -48,14 +54,6 @@ a {
     background-color: ecfcff;
     position: relative;
     padding-top: 100px;
-}
-
-#middleContainer {
- 
-}
-
-#bottomContainer {
-
 }
 
 .bottom-cloud {
@@ -75,25 +73,31 @@ a {
     margin: auto;
 }
 
-.skill-row {
-    width: 50%;
-    margin: 150px auto 150px auto;
-    text-align: left;
+.contact-me {
+    background-color: lightseagreen;
+    margin-bottom: 0;
 }
 
-.skillImages1 {
-    width: 25%;
-    float: left;
-    padding-right: 30px;
-}
-
-.skillImages2 {
-    width: 25%;
-    float: right;
-    padding-left: 30px;
-}
-
-.iconSource {
-    font-size: small;
+table {
+    /* background-color: lightcoral; */
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: center;
 
 }
+
+td {
+    width: 15%;
+   margin: auto;
+   padding-bottom: 50px;
+}
+tr {
+    width: 100%;
+    align-content: center;
+}
+
+.skillImage {
+    width: 40%;
+}
+
+
